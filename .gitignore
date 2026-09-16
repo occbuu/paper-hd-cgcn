@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+~$*.docx
+*.tmp
+scripts/vietnamese-wordlist.txt
+scripts/vietnamese-stopwords.txt
+.venv/
+venv/

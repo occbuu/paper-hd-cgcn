@@ -1,0 +1,48 @@
+ K  silhouette  largest_topic_share_%  ARI_NMF_KMeansTFIDF  n_distinct_topics
+ 3       0.243                   55.9                0.614                  3
+ 4       0.225                   52.9                0.586                  4
+ 5       0.209                   44.1                0.836                  5
+ 6       0.183                   38.2                0.510                  6
+ 7       0.178                   38.2                0.499                  7
+ 8       0.185                   38.2                0.740                  8
+
+=== K=7 full corpus ===
+topic  n                                                                                            keywords
+NMF-1 13        chuyển_giao_công_nghệ, hoạt_động, việt_nam, dịch_vụ, tổ_chức, đầu_tư, nghiên_cứu, nước_ngoài
+NMF-2  4   đổi_mới_sáng_tạo, nghiên_cứu, ứng_dụng, giáo_dục, đại_học, khoa_học_công_nghệ, khoa_học, thúc_đẩy
+NMF-3  4                 nông_nghiệp, nông_dân, ứng_dụng, nông_thôn, sản_xuất, hội_thảo, việt_nam, cây_trồng
+NMF-4  5                        dữ_liệu, năng_lượng, trung_quốc, ngành, an_toàn, mô_hình, khả_năng, lĩnh_vực
+NMF-5  3                           bán_dẫn, việt_nam, chip, ngành, diễn_đàn, công_nghiệp, toàn_cầu, thiết_kế
+NMF-6  3 hợp_đồng, chuyển_giao, pháp_luật, quyền, thiết_yếu, chuyển_giao_công_nghệ, tranh_chấp, quyền_sở_hữu
+NMF-7  2                      lượng_tử, danh_mục, chiến_lược, mạng, tấn_công, nền_tảng, năng_lượng, quốc_gia
+
+=== Leave-one-out Bùi 2019 ===
+topic  n                                                                                        keywords
+NMF-1 11    chuyển_giao_công_nghệ, hoạt_động, dịch_vụ, việt_nam, tổ_chức, nghiên_cứu, đầu_tư, nước_ngoài
+NMF-2  2  giáo_dục, đại_học, hội_thảo, khoa_học_công_nghệ, đổi_mới_sáng_tạo, thứ_trưởng, nguyễn, tọa_đàm
+NMF-3  3             nông_nghiệp, nông_dân, ứng_dụng, nông_thôn, sản_xuất, hội_thảo, việt_nam, cây_trồng
+NMF-4  6                    dữ_liệu, năng_lượng, an_toàn, trung_quốc, ngành, mô_hình, lĩnh_vực, hệ_thống
+NMF-5  3                       bán_dẫn, việt_nam, chip, công_nghiệp, diễn_đàn, ngành, toàn_cầu, thiết_kế
+NMF-6  5  nghiên_cứu, ứng_dụng, đổi_mới_sáng_tạo, chuyển_giao, công_nghệ_sạch, cao_công, xanh, giao_dịch
+NMF-7  3 hợp_đồng, chuyển_giao_công_nghệ, chuyển_giao, pháp_luật, quyền, tranh_chấp, cơ_quan, nước_ngoài
+
+Remaining contract papers:
+    id                                                                                        filename nmf7_loo
+Bài 28 HDCG_A01_Đánh giá thực trạng quy định pháp luật Việt Nam về hợp đồng chuyển giao công nghệ.docx    NMF-7
+Bài 33  HDCG_A16_Hợp đồng chuyển giao công nghệ – Khi chủ động là chìa khóa cho doanh nghiệp Việt.docx    NMF-7
+
+=== News/policy only K=7 ===
+topic  n                                                                                         keywords
+NMF-1 10 chuyển_giao_công_nghệ, hoạt_động, việt_nam, nước_ngoài, nghiên_cứu, đầu_tư, chuyển_giao, tổ_chức
+NMF-2  4                     dữ_liệu, trung_quốc, năng_lượng, an_toàn, ngành, mô_hình, khả_năng, vận_hành
+NMF-3  3              nông_nghiệp, nông_dân, ứng_dụng, nông_thôn, sản_xuất, việt_nam, hội_thảo, cây_trồng
+NMF-4  3                        bán_dẫn, việt_nam, chip, ngành, diễn_đàn, công_nghiệp, toàn_cầu, thiết_kế
+NMF-5  3  đổi_mới_sáng_tạo, đại_học, giáo_dục, ứng_dụng, khoa_học_công_nghệ, nghiên_cứu, hội_thảo, trường
+NMF-6  3                   danh_mục, lượng_tử, chiến_lược, mạng, tấn_công, nền_tảng, quốc_gia, năng_lượng
+NMF-7  1                                  cơ_khí, ty, laser, công_ty, gia_công, sản_xuất, đầu_tư, đáp_ứng
+
+=== Legal/scholarly only K=3 ===
+topic  n                                                                               keywords
+NMF-1  5 khoa_học_công_nghệ, dịch_vụ, quản_lý, tổ_chức, nghiên_cứu, bổ_sung, kinh_tế, khái_niệm
+NMF-2  1       cạnh_tranh, học_thuyết, quyền_sở_hữu, độc_quyền, chủ_sở_hữu, the, cơ_sở, chủ_thể
+NMF-3  1           tranh_chấp, nước_ngoài, việt, lưu_ý, bên_trong, nghĩa_vụ, thỏa_thuận, thứ_ba
