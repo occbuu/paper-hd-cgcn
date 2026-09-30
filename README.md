@@ -12,6 +12,7 @@ The underlying news and journal `.docx` files are **not** included. They are thi
 |---|---|
 | [`paper/JTT_Anonymous_Manuscript.pdf`](paper/JTT_Anonymous_Manuscript.pdf) | Latest anonymous manuscript prepared for *The Journal of Technology Transfer* |
 | [`paper/JTT_Supplementary_Information.pdf`](paper/JTT_Supplementary_Information.pdf) | Supplementary methods, diagnostics and replication inventory |
+| [`latex/P1_JTT_Anonymous_Manuscript/`](latex/P1_JTT_Anonymous_Manuscript/) | Editable LaTeX manuscript, compiled preview and four main-text figures |
 | [`figures/`](figures/) | Separate high-resolution manuscript figures |
 | [`scripts/run_robustness.py`](scripts/run_robustness.py) | Supplementary K-scan, leave-one-out (Bùi 2019), genre split and legacy MDS output |
 | [`results/`](results/) | Derived tables, assignments and figures (random seed 42) |
